@@ -1,0 +1,29 @@
+{
+    "appId": "com.pedrotari7.electron_boilerplate",
+    "productName": "Electron+React+TypeScript Boilerplate",
+    "directories": {
+        "app": "./dist/",
+        "output": "./out/"
+    },
+    "mac": {
+        "category": "public.app-category.entertainment",
+        "darkModeSupport": true,
+        "type": "development"
+    },
+    "dmg": {
+        "iconSize": 160,
+        "contents": [
+            {
+                "x": 180,
+                "y": 170
+            },
+            {
+                "x": 480,
+                "y": 170,
+                "type": "link",
+                "path": "/Applications"
+            }
+        ]
+    },
+    "buildVersion": "1.0.0"
+}
